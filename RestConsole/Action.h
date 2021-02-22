@@ -3,7 +3,7 @@
 #include <string>
 #include "json.hpp"
 
-namespace rb {
+namespace rest {
     using nlohmann::json;
 
     struct Action {

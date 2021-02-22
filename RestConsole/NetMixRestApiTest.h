@@ -3,7 +3,7 @@
 #include "ApplicationAuthenticationRequest.h"
 #include "ApplicationAuthenticationResponse.h"
 
-namespace rb {
+namespace rest {
 
 class NetMixRestApiTest
 {
@@ -16,10 +16,10 @@ public:
 
 
 private:
-	ApplicationAuthenticationRequest _applicationAuthenticationRequest;
-	ApplicationAuthenticationResponse _applicationAuthenticationResponse;
+	//std::shared_ptr<ApplicationAuthenticationRequest> _applicationAuthenticationRequest;
+	std::shared_ptr<ApplicationAuthenticationResponse> _applicationAuthenticationResponse;
 
 
 };
 
-} // namespace rb
+} // namespace rest

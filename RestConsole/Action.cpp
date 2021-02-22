@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "Action.h"
 
-namespace rb {
+namespace rest {
 void to_json(json& j, const Action& p)
 {
 {

@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "ApplicationAuthenticationResponse.h"
 
-namespace rb
+namespace rest
 {
 void to_json(json& j, const ApplicationAuthenticationResponse& p)
 {
@@ -20,4 +20,4 @@ void from_json(const json& j, ApplicationAuthenticationResponse& p)
 	j.at("MessageToCustomer").get_to(p.messageToCustomer);
 	j.at("SessionToken").get_to(p.sessionToken);
 }
-} // namespace rb
+} // namespace rest

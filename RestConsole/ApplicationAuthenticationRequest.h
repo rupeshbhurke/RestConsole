@@ -3,7 +3,7 @@
 #include <string>
 #include "json.hpp"
 
-namespace rb {
+namespace rest {
     using nlohmann::json;
 
     //inline json get_untyped(const json & j, const char * property) {

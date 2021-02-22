@@ -16,7 +16,7 @@ int test_original();
 int main()
 {
 	//jsonTests::JsonTests::TypeAndJsonInterchange(); // Succeess!
-	rb::NetMixRestApiTest apiTest;
+	rest::NetMixRestApiTest apiTest;
 	//apiTest.ApplicationAuthentication();
 	apiTest.ApplicationAuthentication02();
 	apiTest.ApplicationLogin();

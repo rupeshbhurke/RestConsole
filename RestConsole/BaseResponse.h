@@ -1,6 +1,6 @@
 #pragma once
 
-namespace rb {
+namespace rest {
 
     struct BaseResponse {
         std::string errorCode;

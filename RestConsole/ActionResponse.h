@@ -3,7 +3,7 @@
 #include "json.hpp"
 #include "BaseResponse.h"
 
-namespace rb {
+namespace rest {
     using nlohmann::json;
 
     struct ActionResponse : public BaseResponse {
